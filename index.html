@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hey, I'm Odunayo Ayodeji Fawumi.">
+    <meta name="keywords" content="Front-end Developer, Full Stack Javascript Developer, React, Vue, Ayodeji, Odunayo Fawumi">
+    <title>Welcome - I'm  Jonathan Kayode | Content Writer</title>
+    <link rel="icon" href="./assets/img/avatar-3.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <!-- <link rel="stylesheet" href="./slick/slick-theme.css" /> -->
+    <link rel="stylesheet" href="./css/aos.css" />
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</head>
+<body>
+    <!-- Navbar section -->
+    <header>
+        <nav class="navbar-container">
+            <div class="container">
+                <div class="navbar-content">
+                    <a href="./index.html">
+                        <img width="40" height="40" src="./assets/img/avatar-3.svg" alt="logo" />
+                    </a>
+                    <div class="nav-main">
+                        <ul>
+                            <li>
+                                <a class="nav-link active" id="top" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#blogs">Blogs</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#testimonial">Testimonial</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+
+                        <button  name="toggle-menu-btn" type="button" class="menu-btn">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sidenav">
+                <div class="sidenav-content">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Hire Me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Banner section -->
+    <section>
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="banner-content">
+                    <div class="row">
+                        <div 
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="300"    
+                            class="order-2 order-lg-1 col-lg-7 col-12 mt_md--50 mt_sm--50 mt_lg--30"
+                        >
+                            <div class="description">
+                                <span class="subtitle">WELCOME TO MY WORLD</span>
+                                <h1 class="md-text-center">
+                                    Hi!, I'm 
+                                    <span class="outline">Jonathan Kayode</span>
+                                    <br>
+                                    a 
+                                    <span class="outline">Content Writer</span>
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Obcaecati suscipit voluptas repellendus perspiciatis quidem 
+                                    maiores soluta a ad pariatur vitae, ipsam, blanditiis nesciunt 
+                                    incidunt veniam consectetur nostrum tenetur! Minima, quia!
+                                </p>
+                            </div>
+                            <div class="social-media-icon ">
+                                <span class="title">CONNECT WITH ME</span>
+                                <ul class="social-share d-flex liststyle">
+                                    <li class="facebook">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="linkedin">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="whatsapp">
+                                        <a href="#">
+                                            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" svg-inline="" role="presentation" focusable="false" tabindex="-1">
+                                                <path d="M16.29 0C7.616 0 .582 6.978.582 15.589c0 2.945.823 5.698 2.253 8.049L0 32l8.699-2.762a15.743 15.743 0 007.592 1.94c8.676 0 15.709-6.982 15.709-15.59C32 6.979 24.967 0 16.29 0zm7.811 21.509c-.369.917-2.04 1.753-2.779 1.789-.738.04-.757.571-4.773-1.172-4.017-1.747-6.433-5.989-6.622-6.263-.19-.271-1.555-2.217-1.483-4.176.075-1.96 1.146-2.884 1.528-3.266.382-.385.82-.454 1.088-.457.316-.006.522-.01.754 0 .235.01.584-.049.888.76.304.81 1.032 2.796 1.123 3.002.092.202.15.437.007.698-.144.262-.219.425-.425.65-.209.226-.44.503-.627.676-.209.19-.427.399-.205.807.218.408.976 1.74 2.125 2.837 1.48 1.41 2.756 1.881 3.151 2.093.396.216.63.19.872-.065.242-.258 1.045-1.123 1.33-1.512.283-.388.548-.313.91-.166.363.147 2.296 1.182 2.69 1.397.396.212.657.323.752.493.095.16.065.957-.304 1.875z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="order-1 order-lg-2 col-lg-5 col-12">
+                            <div class="thumbnail">
+                                <div class="inner">
+                                    <img 
+                                        data-aos="fade-left" 
+                                        data-aos-duration="500" 
+                                        data-aos-once="true"
+                                        data-aos-delay="300"
+                                        src="./assets/img/kay_img-removebg-preview.png" 
+                                        class="w-100" 
+                                        alt="kayode_image"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section id="services">
+        <div class="container">
+            <div class="col-12">
+                <div class="service-container">
+                    <div class="section-title text-center">
+                        <span class="subtitle">Services</span>
+                        <h2 class="title">What I Do</h2>
+                    </div>
+                    <div class="service-content">
+                        <div class="row">
+                            <div
+                                data-aos="fade-up" 
+                                data-aos-duration="500" 
+                                data-aos-once="true"
+                                data-aos-delay="100"
+                                class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                            >
+                                <div class="service-card">
+                                    <span class="material-icons">
+                                        how_to_reg
+                                    </span>
+                                    <div class="service-description">
+                                        <h2 class="title">Content Strategy</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Repudiandae harum similique cupiditate ratione. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos="fade-up" 
+                                data-aos-duration="500" 
+                                data-aos-once="true"
+                                data-aos-delay="200"
+                                class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12"
+                            >
+                                <div class="service-card">
+                                    <span class="material-icons">
+                                        content_paste
+                                    </span>
+                                    <div class="service-description">
+                                        <h2 class="title">Website Content</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Repudiandae harum similique cupiditate ratione. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos="fade-up" 
+                                data-aos-duration="500" 
+                                data-aos-once="true"
+                                data-aos-delay="300"
+                                class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12"
+                            >
+                                <div class="service-card">
+                                    <span class="material-icons">
+                                        inventory
+                                    </span>
+                                    <div class="service-description">
+                                        <h2 class="title">Article</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Repudiandae harum similique cupiditate ratione. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos="fade-up" 
+                                data-aos-duration="500" 
+                                data-aos-once="true"
+                                data-aos-delay="500"
+                                class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 offset-md-4"
+                            >
+                                <div class="service-card">
+                                    <span class="material-icons">
+                                        &#xe8f9;
+                                    </span>
+                                    <div class="service-description">
+                                        <h2 class="title">Blog Post</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Repudiandae harum similique cupiditate ratione.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                <div>  
+            </div>
+        </div>
+    </section>
+    <!-- experience section -->
+    <section id="resume">
+        <div class="container">
+            <div class="col-12">
+                <div class="resume-container slide">
+                    <div class="section-title text-center">
+                        <span class="subtitle">3+ years of experience</span>
+                        <h2 class="title">My Resume</h2>
+                    </div>
+                    <div class="resume-content mt--45">
+                        <div class="col-lg-12">
+                            <div class="tab-header">
+                                <ul class="tab-header-list nav nav-tabs" id="experiences-tab" role="tablist">
+                                    <!-- <li class="nav-item">
+                                        <a 
+                                            class="nav-link active" 
+                                            id="experiences-education-tab" 
+                                            data-bs-toggle="pill" 
+                                            data-bs-target="#education" 
+                                            href="javascript:void(0)" 
+                                            role="tab" 
+                                            aria-controls="education" 
+                                            aria-selected="true"
+                                        >
+                                            education
+                                        </a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a 
+                                            class="nav-link active" 
+                                            id="experiences-experience-tab" 
+                                            data-bs-toggle="pill" 
+                                            data-bs-target="#experience" 
+                                            href="javascript:void(0)" 
+                                            role="tab" 
+                                            aria-controls="experience" 
+                                            aria-selected="true"
+                                        >
+                                            experience
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a 
+                                            class="nav-link" 
+                                            id="experiences-education-tab" 
+                                            data-bs-toggle="pill" 
+                                            data-bs-target="#professional" 
+                                            href="javascript:void(0)" 
+                                            role="tab" 
+                                            aria-controls="professional" 
+                                            aria-selected="true"
+                                        >
+                                            professional skill
+                                        </a>
+                                    </li>
+                                    
+                                    <!-- <li class="nav-item">
+                                        <a 
+                                            class="nav-link" 
+                                            id="experiences-interview-tab" 
+                                            data-bs-toggle="pill" 
+                                            data-bs-target="#interview" 
+                                            href="javascript:void(0)" 
+                                            role="tab" 
+                                            aria-controls="interview" 
+                                            aria-selected="true"
+                                        >
+                                            interview
+                                        </a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="tab-content" id="myTabContents">
+                                <!-- <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                    <div class="personal-experience-inner mt--40">
+                                        <div class="row">                                        
+                                            <div class="col-lg-6 col-md-12 col-12">
+                                                <div class="content">
+                                                    <span class="subtitle">2007 - 2010</span>
+                                                    <h4 class="maintitle">Education Quality</h4>
+                                                    <div class="experience-list">
+    
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Personal Portfolio April Fools</h4>
+                                                                        <span>University of DVI (1997 - 2001)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.30/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">The education should be very
+                                                                    interactual. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4> Examples Of Personal Portfolio</h4>
+                                                                        <span>College of Studies (2000 - 2002)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.50/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Maecenas finibus nec sem ut
+                                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Tips For Personal Portfolio</h4>
+                                                                        <span>University of Studies (1997 - 2001)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.80/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description"> If you are going to use a passage.
+                                                                    Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 col-12">
+                                                <div class="content">
+                                                    <span class="subtitle">2007 - 2010</span>
+                                                    <h4 class="maintitle">Job Experience</h4>
+                                                    <div class="experience-list">
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Diploma in Web Development</h4>
+                                                                        <span>BSE In CSE (2004 - 2008)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.70/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Contrary to popular belief. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>   
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>The Personal Portfolio Mystery</h4>
+                                                                        <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.95/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>  
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Diploma in Computer Science</h4>
+                                                                        <span>Works at Plugin Development (2016 -
+                                                                            2020)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>5.00/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Maecenas finibus nec sem ut
+                                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="tab-pane fade" id="professional" role="tabpanel" aria-labelledby="professional-tab">
+                                    <div class="personal-experience-inner mt--40">
+                                        <div class="row row--40">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="progress-wrapper">
+                                                    <div class="content">
+                                                        <span class="subtitle">Features</span>
+                                                        <h4 class="maintitle">Design Skills</h4>
+                                                       
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">Writing</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: hidden; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">100%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">Copy-Writing</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 95%; visibility: hidden; animation-duration: 0.6s; animation-delay: 0.4s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">95%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">ADOBE XD</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 60%; visibility: hidden; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">60%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">ADOBE ILLUSTRATOR</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 70%; visibility: hidden; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">70%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">DESIGN</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 90%; visibility: hidden; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">90%</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                                <div class="progress-wrapper">
+                                                    <div class="content">
+                                                        <span class="subtitle">Features</span>
+                                                        <h4 class="maintitle">Development Skill</h4>
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">HTML</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 85%; visibility: hidden; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">85%</span></div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">CSS</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%; visibility: hidden; animation-duration: 0.6s; animation-delay: 0.4s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">80%</span></div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">JAVASCRIPT</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%; visibility: hidden; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">90%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">SOFTWARE</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 75%; visibility: hidden; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">75%</span></div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">PLUGIN</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%; visibility: hidden; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: none;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">70%</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="tab-pane fade active show" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                                    <div class="personal-experience-inner mt--40">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 col-12">
+                                                <div class="content">
+                                                    <span class="subtitle">2005 - 2012</span>
+                                                    <h4 class="maintitle">Education Quality</h4>
+                                                    <div class="experience-list">
+    
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Electrical And Electronics Engineering</h4>
+                                                                        <span>Osun State College of Technology (2005 - 2009)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.36/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">The education should be very
+                                                                    interactual. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Electrical and Electronics Engieenring (Post Graduate Diploma)</h4>
+                                                                        <span>Obafemi Awolowo University (OAU), Ile Ife, Osun State Nigeria. (2010 - 2012)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.58/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Maecenas finibus nec sem ut
+                                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="col-lg-6 col-md-12 col-12">
+                                                <div class="content">
+                                                    <span class="subtitle">2010 - Present</span>
+                                                    <h4 class="maintitle">Job Experience</h4>
+                                                    <div class="experience-list">
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Marketing Manager</h4>
+                                                                        <span>Green World International (2010 - 2012)</span>
+                                                                    </div>
+                                                                    <!-- <div class="date-of-time">
+                                                                        <span>4.70/5</span>
+                                                                    </div> -->
+                                                                </div>
+                                                                <p class="description">Contrary to popular belief. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Top Rated Freelancer</h4>
+                                                                        <span>Upwork (2017 - Present)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.95/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="resume-single-list">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Top Rated Freelancer</h4>
+                                                                        <span>Fiveer (2019 - Present)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.95/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>             
+                                <!-- <div class="tab-pane fade active show" id="interview" role="tabpanel" aria-labelledby="interview-tab">
+                                    <div class="personal-experience-inner mt--40">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 col-12">
+                                                <div class="content">
+                                                    <span class="subtitle">2007 - 2010</span>
+                                                    <h4 class="maintitle">Company Experience</h4>
+                                                    <div class="experience-list">
+    
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Personal Portfolio April Fools</h4>
+                                                                        <span>University of DVI (1997 - 2001)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.30/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">The education should be very
+                                                                    interactual. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4> Examples Of Personal Portfolio</h4>
+                                                                        <span>College of Studies (2000 - 2002)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.50/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Maecenas finibus nec sem ut
+                                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Tips For Personal Portfolio</h4>
+                                                                        <span>University of Studies (1997 - 2001)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.80/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description"> If you are going to use a passage.
+                                                                    Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                                <div class="content">
+                                                    <span class="subtitle">2007 - 2010</span>
+                                                    <h4 class="maintitle">Job Experience</h4>
+                                                    <div class="experience-list">
+    
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Diploma in Web Development</h4>
+                                                                        <span>BSE In CSE (2004 - 2008)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.70/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Contrary to popular belief. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>The Personal Portfolio Mystery</h4>
+                                                                        <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>4.95/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                                    tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                       
+                                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true" class="resume-single-list aos-init aos-animate">
+                                                            <div class="inner">
+                                                                <div class="heading">
+                                                                    <div class="title">
+                                                                        <h4>Diploma in Computer Science</h4>
+                                                                        <span>Works at Plugin Development (2016 -
+                                                                            2020)</span>
+                                                                    </div>
+                                                                    <div class="date-of-time">
+                                                                        <span>5.00/5</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="description">Maecenas finibus nec sem ut
+                                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                                    mauris hendrerit ante.</p>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                <div>  
+            </div>
+        </div>
+    </section>
+    <!-- testimonal section -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center aos-init aos-animate">
+                        <span class="subtitle">What Clients Say</span>
+                        <h2 class="title">Testimonial</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-content">
+                <div class="testimonial-carousel">
+                    <div 
+                        data-aos="fade-up" 
+                        data-aos-duration="500" 
+                        data-aos-once="true"
+                        data-aos-delay="300"   
+                        class="testimonial"
+                    >
+                        <div class="inner">
+                            <div class="card-info">
+                                <div class="card-thumbnail">
+                                    <img class="w-100" src="./assets/img/foodcredit-lp.png" alt="smith_image">
+                                </div>
+                                <div class="card-info-description">
+                                    <p class="description">
+                                        Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                    </p>
+                                    <div class="title-area">
+                                        <div class="title-info">
+                                            <span class="date">via Upwork - Mar 24, 2021</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="title">John Smith</h3>
+                                    <span class="designation">Marketing Manager</span>
+                                    <span class="subtitle mt--10">facebook</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div 
+                        data-aos="fade-up" 
+                        data-aos-duration="500" 
+                        data-aos-once="true"
+                        data-aos-delay="300"   
+                        class="testimonial"
+                    >
+                        <div class="inner">
+                            <div class="card-info">
+                                <div class="card-thumbnail">
+                                    <img class="w-100" src="./assets/img/odunayo-fawumi.jpg" alt="odunayo_image">
+                                </div>
+                                <div class="card-info-description">
+                                    <p class="description">
+                                        Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                    </p>
+                                    <div class="title-area">
+                                        <div class="title-info">
+                                            <span class="date">via Upwork - Jun 4, 2021</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="title">Odunayo Ayodeji</h3>
+                                    <span class="designation">Front-end Engineer</span>
+                                    <span class="subtitle mt--10">Micakin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div 
+                        data-aos="fade-up" 
+                        data-aos-duration="500" 
+                        data-aos-once="true"
+                        data-aos-delay="300"   
+                        class="testimonial"
+                    >
+                        <div class="inner">
+                            <div class="card-info">
+                                <div class="card-thumbnail">
+                                    <img class="w-100" src="./assets/img/peace-hms.png" alt="aramide_image">
+                                </div>
+                                <div class="card-info-description">
+                                    <p class="description">
+                                        Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                    </p>
+                                    <div class="title-area">
+                                        <div class="title-info">
+                                            <span class="date">via Upwork - May 14, 2021</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="title">Aramide Oluwaseun</h3>
+                                    <span class="designation">CEO</span>
+                                    <span class="subtitle mt--10">Aragrafix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div 
+                        data-aos="fade-up" 
+                        data-aos-duration="500" 
+                        data-aos-once="true"
+                        data-aos-delay="300"   
+                        class="testimonial"
+                    >
+                        <div class="inner">
+                            <div class="card-info">
+                                <div class="card-thumbnail">
+                                    <img class="w-100" src="./assets/img/js.svg" alt="smith_image">
+                                </div>
+                                <div class="card-info-description">
+                                    <p class="description">
+                                        Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                    </p>
+                                    <div class="title-area">
+                                        <div class="title-info">
+                                            <span class="date">via Upwork - Apr 14, 2021</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="title">Mary Canom</h3>
+                                    <span class="designation">Sales Manager</span>
+                                    <span class="subtitle mt--10">Behance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div 
+                        data-aos="fade-up" 
+                        data-aos-duration="500" 
+                        data-aos-once="true"
+                        data-aos-delay="300"   
+                        class="testimonial"
+                    >
+                        <div class="inner">
+                            <div class="card-info">
+                                <div class="card-thumbnail">
+                                    <img class="w-100" src="./assets/img/react.svg" alt="odunayo_image">
+                                </div>
+                                <div class="card-info-description">
+                                    <p class="description">
+                                        Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                    </p>
+                                    <div class="title-area">
+                                        <div class="title-info">
+                                            <span class="date">via Upwork - Jan 7, 2021</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                            <span class="material-icons">
+                                                grade
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="title">Yousef Salami</h3>
+                                    <span class="designation">CEO</span>
+                                    <span class="subtitle mt--10">Top Spot</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section -->
+    <section id="blogs">
+        <div class="container">
+            <div class="blog-container">
+                <div class="section-title col-12 text-center">
+                    <span class="subtitle">Check my Portfolio</span>
+                    <h2 class="title">My Blogs</h2>
+                </div>
+                <div class="blog-content">
+                    <div class="row">
+                        <div 
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="100"
+                            class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        >
+                            <div class="blog-card">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/img/peace-hms.png" class="w-100" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Canada</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span>
+                                                <span class="material-icons">
+                                                    schedule
+                                                </span> 
+                                                2 min read
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">
+                                            T-shirt design is the part of design
+                                            <i class="feather-arrow-up-right"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="300"
+                            class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        >
+                            <div class="blog-card">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/img/bowen-exam-web-app.png" class="w-100" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Client-side</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span>
+                                                <span class="material-icons">
+                                                    schedule
+                                                </span> 
+                                                2 min read
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">
+                                            Create Reusable Component with React table & Chakra UI 
+                                            <i class="feather-arrow-up-right"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div 
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="500"
+                            class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        >
+                            <div class="blog-card">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/img/foodcredit-lp.png" class="w-100" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Web Application</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span>
+                                                <span class="material-icons">
+                                                    schedule
+                                                </span> 
+                                                2 min read
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">
+                                            NextJs: Build a Server Side Rendering Web Application
+                                            <i class="feather-arrow-up-right"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            <div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="section-title col-12 text-center">
+                    <span class="subtitle">Contact me</span>
+                    <h2 class="title">Let's Work Together</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="row">
+                        <div 
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="300"
+                            class="col-lg-5 col-xl-5 col-md-6 col-sm-12 col-12"
+                        >
+                           <h4 class="title">Need someone to help you out with your content writing?</h4>
+                           <p class="contact-description">
+                                I am available for freelance work. Connect with me via and call in to my account. 
+                               Quas eum laudantium reiciendis voluptatibus eos blanditiis dignissimos.
+                           </p>
+                           <div class="social-media-links">
+                                <ul style="margin: 3.4rem 0;padding: 0;">
+                                    <li>
+                                        Phone: +2347034311518
+                                    </li>
+                                    <li>
+                                        Email: example@gmail.com
+                                    </li>
+                                </ul>
+                           </div>
+
+                           <div class="social-media-icon">
+                                <span class="title">CONNECT WITH ME</span>
+                                <ul class="social-share d-flex liststyle">
+                                    <li class="facebook">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="linkedin">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="whatsapp">
+                                        <a href="#">
+                                            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" svg-inline="" role="presentation" focusable="false" tabindex="-1">
+                                                <path d="M16.29 0C7.616 0 .582 6.978.582 15.589c0 2.945.823 5.698 2.253 8.049L0 32l8.699-2.762a15.743 15.743 0 007.592 1.94c8.676 0 15.709-6.982 15.709-15.59C32 6.979 24.967 0 16.29 0zm7.811 21.509c-.369.917-2.04 1.753-2.779 1.789-.738.04-.757.571-4.773-1.172-4.017-1.747-6.433-5.989-6.622-6.263-.19-.271-1.555-2.217-1.483-4.176.075-1.96 1.146-2.884 1.528-3.266.382-.385.82-.454 1.088-.457.316-.006.522-.01.754 0 .235.01.584-.049.888.76.304.81 1.032 2.796 1.123 3.002.092.202.15.437.007.698-.144.262-.219.425-.425.65-.209.226-.44.503-.627.676-.209.19-.427.399-.205.807.218.408.976 1.74 2.125 2.837 1.48 1.41 2.756 1.881 3.151 2.093.396.216.63.19.872-.065.242-.258 1.045-1.123 1.33-1.512.283-.388.548-.313.91-.166.363.147 2.296 1.182 2.69 1.397.396.212.657.323.752.493.095.16.065.957-.304 1.875z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            data-aos="fade-up" 
+                            data-aos-duration="500" 
+                            data-aos-once="true"
+                            data-aos-delay="500" 
+                            class="col-lg-7 col-xl-7 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        >
+                            <div class="contact-form">
+                                <form id="contact_form" class="was-validated">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="form-group">
+                                                <label for="fullname">FullName</label>
+                                                <input
+                                                    required 
+                                                    class="form-control is-invalid" 
+                                                    type="text" 
+                                                    name="fullname" 
+                                                    id="fullname" 
+                                                    placeholder="What's your name?"
+                                                />
+                                                <!-- <div id="fullname" class="invalid-feedback">
+                                                    Please enter your fullname
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="form-group">
+                                                <label for="fullname">Phone Number</label>
+                                                <input 
+                                                    required
+                                                    class="form-control is-invalid" 
+                                                    type="text" 
+                                                    name="phone-number" 
+                                                    id="phone-number" 
+                                                    placeholder="e.g +234-7034311518" 
+                                                />
+                                                <!-- <div id="phone-number" class="invalid-feedback">
+                                                    Please enter your phone-number.
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                            <div class="form-group">
+                                                <label for="email">Email (Company or Personal) </label>
+                                                <input  
+                                                    class="form-control is-invalid" 
+                                                    required 
+                                                    type="email" 
+                                                    name="email" 
+                                                    id="email" 
+                                                    placeholder="Your Email"  
+                                                />
+                                                <!-- <div id="email" class="invalid-feedback">
+                                                    Please enter your email.
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                            <div class="form-group">
+                                                <label for="subject">Subject</label>
+                                                <input  
+                                                    class="form-control is-invalid" 
+                                                    required 
+                                                    type="text" 
+                                                    name="subject" 
+                                                    id="subject" 
+                                                    placeholder="Enter message subject"  
+                                                />
+                                                <!-- <div id="subject" class="invalid-feedback">
+                                                    Please enter the message subject
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                            <div class="form-group">
+                                                <label for="message">Message</label>
+                                                <textarea
+                                                    required
+                                                    class="form-control is-invalid" 
+                                                    name="message"
+                                                    id="message"
+                                                    rows="6"
+                                                    cols="5"
+                                                    placeholder="Tell me more about the project..."
+                                                ></textarea>
+                                                <!-- <div id="message" class="invalid-feedback">
+                                                    Please enter the message
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                            <button type="submit" class="submit-btn full-btn">
+                                                Send Message 
+                                            </button>
+                                        </div>
+                                    </div> 
+                                </form> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            <div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div style="text-align: center;padding: 1.5rem 1rem;">
+            <p style="font-weight: 600;text-align: center;padding: 0 2rem;">
+                <!-- Made with <span class="heart">&#10084;</span> by Odunayo Ayodeji Fawumi -->
+                Copyright © 2021. All rights reserved by Odunayo Ayodeji.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS Modules -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

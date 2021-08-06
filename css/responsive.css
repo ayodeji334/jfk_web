@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px){
+    body{
+        font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .testimonial-content {
+        position: relative;
+        margin: 0 120px;
+    }
+    h2.section-title, .description p, h3.section-tag{
+        text-align: left;
+    }
+    .modal-body {
+        background-color: #ffffff;
+        margin: 60px auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: 30%;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-detail,.role-container{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .description p{
+        text-align: left;
+    }
+    .description{
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 1310px;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .banner-content{
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .roles-content{
+        padding: 0 7rem;
+        flex-direction: row;
+    }
+    .illustration{
+        visibility: visible;
+        background-image: url("../assets/img/logo.svg");
+        background-position: center;
+        background-size: 80% 90%;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        max-width: 400px;
+        margin: 2.4rem;
+    }
+    .about-container,.project,.skill-container,.contact-container{
+        flex-direction: row;
+    }
+    .project-img, .project-detail{
+        width: 100%;
+    }
+    .nav-main{
+        display: block;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .project-img{
+        padding: 1.36rem 6.5rem;
+        margin: 1.7rem 0;
+    }
+}
+
