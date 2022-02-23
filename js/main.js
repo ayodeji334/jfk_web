@@ -2,79 +2,79 @@ $(document).ready(function(){
     'use strict';
 
     //Toggle Theme Btn
-    // $("#toggleThemeBtn").click(function(){    
-    //     bgColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
-    //     if(bgColor === "rgb(255, 255, 255)" || bgColor === "rgba(0, 0, 0, 0)"){
-    //         $('body').addClass("dark-mode");
+    $("#toggleThemeBtn").click(function(){    
+        bgColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
+        if(bgColor === "rgb(255, 255, 255)" || bgColor === "rgba(0, 0, 0, 0)"){
+            $('body').addClass("dark-mode");
             
-    //         $('.btn').css({
-    //             "backgroundColor": "rgb(255, 255, 255)",
-    //             "color": "rgb(0, 0, 0)"   
-    //         });
+            $('.btn').css({
+                "backgroundColor": "rgb(255, 255, 255)",
+                "color": "rgb(0, 0, 0)"   
+            });
 
-    //         $('.contact-detail a span').css({
-    //             "color": "rgb(255,255,255)"
-    //         });
+            $('.contact-detail a span').css({
+                "color": "rgb(255,255,255)"
+            });
 
-    //         $(".navbar-container span.material-icons").html("&#xe518;").css({ "color": "#ffffff"});
+            $(".navbar-container span.material-icons").html("&#xe518;").css({ "color": "#ffffff"});
             
-    //         $(this).css({
-    //             "backgroundColor": "rgb(12, 11, 11)",
-    //             "color": "rgb(255, 255, 255)"
-    //         });
+            $(this).css({
+                "backgroundColor": "rgb(12, 11, 11)",
+                "color": "rgb(255, 255, 255)"
+            });
 
-    //         $('.menu-btn, .sidenav').css({
-    //             "backgroundColor": "rgb(7, 7, 7)"
-    //         });
+            $('.menu-btn, .sidenav').css({
+                "backgroundColor": "rgb(7, 7, 7)"
+            });
 
-    //         $('.bar').css({
-    //             "backgroundColor": "rgb(255, 255, 255)"
-    //         });
+            $('.bar').css({
+                "backgroundColor": "rgb(255, 255, 255)"
+            });
 
-    //         $('.contact-detail svg').css({
-    //             "fill": "rgb(255, 255, 255)"
-    //         });
+            $('.contact-detail svg').css({
+                "fill": "rgb(255, 255, 255)"
+            });
              
-    //         if(Math.floor($(window).scrollTop()) > 60){
-    //             $('.navbar-container').removeClass("lightBg").addClass("darkBg");
-    //         }; 
+            if(Math.floor($(window).scrollTop()) > 60){
+                $('.navbar-container').removeClass("lightBg").addClass("darkBg");
+            }; 
 
-    //     }else{
-    //         $('body').removeClass("dark-mode")
+        }else{
+            $('body').removeClass("dark-mode")
 
-    //         $('.contact-detail svg').css({
-    //             "fill": "rgb(0, 0, 0)"
-    //         });
+            $('.contact-detail svg').css({
+                "fill": "rgb(0, 0, 0)"
+            });
 
-    //         $('.btn').css({
-    //             "backgroundColor": "rgb(0, 0, 0)",
-    //             "color": "rgb(255, 255, 255)"   
-    //         });
+            $('.btn').css({
+                "backgroundColor": "rgb(0, 0, 0)",
+                "color": "rgb(255, 255, 255)"   
+            });
 
-    //         $(".navbar-container span.material-icons").html(`&#xe51c;`).css({ "color": "rgb(0, 0, 0)"});
+            $(".navbar-container span.material-icons").html(`&#xe51c;`).css({ "color": "rgb(0, 0, 0)"});
             
-    //         $(this).css({
-    //             "backgroundColor": "rgb(255, 255, 255)",
-    //             "color": "rgb(0, 0, 0)"
-    //         });
+            $(this).css({
+                "backgroundColor": "rgb(255, 255, 255)",
+                "color": "rgb(0, 0, 0)"
+            });
 
-    //         $('.menu-btn, .sidenav').css({
-    //             "backgroundColor": "rgb(255, 255, 255)"
-    //         });
+            $('.menu-btn, .sidenav').css({
+                "backgroundColor": "rgb(255, 255, 255)"
+            });
 
-    //         $(".contact-detail a span").css({
-    //             'color': "rgb(0, 0, 0)"
-    //         });
+            $(".contact-detail a span").css({
+                'color': "rgb(0, 0, 0)"
+            });
 
-    //         $('.bar').css({
-    //             "backgroundColor": "rgb(0, 0, 0)"
-    //         });
+            $('.bar').css({
+                "backgroundColor": "rgb(0, 0, 0)"
+            });
 
-    //         if(Math.floor($(window).scrollTop()) > 60){
-    //             $('.navbar-container').removeClass("darkBg").addClass("lightBg");    
-    //         }
-    //     }
-    // });
+            if(Math.floor($(window).scrollTop()) > 60){
+                $('.navbar-container').removeClass("darkBg").addClass("lightBg");    
+            }
+        }
+    });
 
     //Toggle Menu Btn
     $(".menu-btn").click(function(){
@@ -82,6 +82,10 @@ $(document).ready(function(){
         $(".bar3").toggleClass("bar3_transform");
         $(".bar2").toggleClass("bar2_transform");
         $(".sidenav").slideToggle(400);
+    });
+
+    $(".testimonial-carousel").on("init", function(e, slick){
+        console.log("Slick initialised")
     });
     
     //Carousel with slick
